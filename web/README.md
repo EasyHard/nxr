@@ -8,6 +8,7 @@ and deploy dependencies,
 ```
 $ npm install
 $ bower install
+$ git submodule update
 ```
 then run,
 ```$ npm start```
