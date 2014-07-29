@@ -1,0 +1,5 @@
+web/node_modules/
+web/public/bower_components/
+web/log/
+web/pids/
+web/npm-debug.log

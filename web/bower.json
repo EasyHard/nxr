@@ -1,0 +1,10 @@
+{
+  "name": "nxr",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jquery": "*",
+    "bootstrap": "*",
+    "require": "*"
+  }
+}
