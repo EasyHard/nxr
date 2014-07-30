@@ -7,6 +7,7 @@ var require = {
     paths: {
         jquery: '/bower_components/jquery/dist/jquery',
         ace: '/extra/ace-builds/src',
-        underscore: '/bower_components/underscore/underscore'
+        underscore: '/bower_components/underscore/underscore',
+        async: '/bower_components/async/lib/async'
     }
 };
