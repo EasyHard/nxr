@@ -1,24 +1,25 @@
- {
-  "name"        : "nxr",
-  "description" : "cross reference for nodejs code",
-  "version"     : "0.0.1",
-  "engines"     : {
+{
+  "name": "nxr",
+  "description": "cross reference for nodejs code",
+  "version": "0.0.1",
+  "engines": {
     "node": ">=0.10.0"
   },
-  "dependencies" : {
-    "actionhero" : "9.1.0",
-    "ws"         : "latest",
-    "grunt"      : "latest"
+  "dependencies": {
+    "actionhero": "9.1.0",
+    "async": "^0.9.0",
+    "grunt": "latest",
+    "ws": "latest"
   },
-  "devDependencies" : {
-    "mocha"  : "latest",
-    "should" : "latest"
+  "devDependencies": {
+    "mocha": "latest",
+    "should": "latest"
   },
-  "scripts" : {
-    "help"         : "actionhero help",
-    "start"        : "actionhero start",
-    "actionhero"   : "actionhero",
-    "startCluster" : "actionhero startCluster",
-    "test"         : "mocha"
+  "scripts": {
+    "help": "actionhero help",
+    "start": "actionhero start",
+    "actionhero": "actionhero",
+    "startCluster": "actionhero startCluster",
+    "test": "mocha"
   }
 }

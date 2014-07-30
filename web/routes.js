@@ -40,4 +40,8 @@ example:
 // ROUTES //
 ////////////
 
-exports.routes = {};
+exports.routes = {
+    all: [
+        { path: '/filecontent', action: 'fileContent'}
+    ]
+};

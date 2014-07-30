@@ -45,6 +45,9 @@ exports.default = {
             startingChatRooms: {
             }
         };
+    },
+    custom: {
+        fileroot: './files'
     }
 };
 
