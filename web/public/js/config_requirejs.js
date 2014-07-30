@@ -6,6 +6,7 @@ var require = {
     // list bower components and extra deps here.
     paths: {
         jquery: '/bower_components/jquery/dist/jquery',
-        ace: '/extra/ace-builds/src'
+        ace: '/extra/ace-builds/src',
+        underscore: '/bower_components/underscore/underscore'
     }
 };
