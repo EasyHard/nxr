@@ -5,6 +5,5 @@
   "dependencies": {
     "jquery": "*",
     "bootstrap": "*",
-    "require": "*"
   }
 }
