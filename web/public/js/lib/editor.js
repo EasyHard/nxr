@@ -4,7 +4,7 @@
 define(['ace/ace', 'underscore'], function (ace, _) {
     function Editor(id) {
         var editor = this.editor = ace.edit(id);
-        editor.setTheme("ace/theme/monokai");
+        editor.setTheme("ace/theme/chrome");
         editor.getSession().setMode("ace/mode/javascript");
         editor.getSession().setUseWrapMode(true);
         editor.setReadOnly(true);
