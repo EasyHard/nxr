@@ -10,7 +10,8 @@ var require = {
         underscore: '/bower_components/underscore/underscore',
         async: '/bower_components/async/lib/async',
         mocha: '/bower_components/mocha/mocha',
-        chai: '/bower_components/chai/chai'
+        chai: '/bower_components/chai/chai',
+        backbone: '/bower_components/backbone/backbone'
     },
     // For those non-AMD scripts, shim could fix up.
     // of course you could also just include them in
@@ -21,6 +22,10 @@ var require = {
             init: function () {
                 mocha.setup('bdd');
             }
+        },
+        backbone: {
+            deps: ['underscore', 'jquery'],
+            exports: 'Backbone'
         }
     }
 };
