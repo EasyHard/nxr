@@ -42,6 +42,7 @@ example:
 
 exports.routes = {
     all: [
-        { path: '/filecontent', action: 'fileContent'}
+        { path: '/filecontent', action: 'fileContent'},
+        { path: '/getFSChildren', action: 'getFSChildren' }
     ]
 };

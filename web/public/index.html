@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="/bower_components/fancytree/dist/skin-lion/ui.fancytree.css" rel="stylesheet" type="text/css">
 <title>NXR</title>
 <style type="text/css" media="screen">
     #code {
@@ -15,10 +16,13 @@
 </head>
 
 <body>
+  <div id="fstree">
+  </div>
   <div id="code">function foo(items) {
   var x = "All this is syntax highlighted";
   return x;
   }</div>
+  </table>
   <script src="/js/config_requirejs.js"></script>
   <script data-main="/js/main.js" src="/extra/require.js"></script>
 </body>

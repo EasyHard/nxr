@@ -9,7 +9,8 @@
     "actionhero": "9.1.0",
     "async": "^0.9.0",
     "grunt": "latest",
-    "ws": "latest"
+    "ws": "latest",
+    "underscore": "^1.6.0"
   },
   "devDependencies": {
     "mocha": "latest",
