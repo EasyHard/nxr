@@ -3,5 +3,5 @@
  */
 require(['editor', 'filetree'], function (Editor, FileTree) {
     var editor = new Editor('code');
-    var filetree = new FileTree('#fstree');
+    var filetree = new FileTree('#fstree', editor);
 });

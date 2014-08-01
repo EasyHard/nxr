@@ -1,12 +1,12 @@
 define(['jquery', 'fancytree', 'underscore'], function($, fancytree, _) {
     "use strict";
-    function FileTree(id) {
-        this.initFancytree(id);
+    function FileTree(id, editor) {
+        this.initFancytree(id, editor);
         return this;
     }
 
     _.extend(FileTree.prototype, {
-        initFancytree: function(id) {
+        initFancytree: function(id, editor) {
             $(id).fancytree({
                 source: [
                     {title: 'test', key: '1', folder: true, lazy: true, path: 'test'}
@@ -18,7 +18,13 @@ define(['jquery', 'fancytree', 'underscore'], function($, fancytree, _) {
                         data: {path: node.data.path}
                     };
                 },
-                checkbox: false
+                checkbox: false,
+                click: function(event, data) {
+                    var node = data.node;
+                    if (!node.folder) {
+                        editor.jumpTo(node.data.path);
+                    }
+                }
             });
         }
     });
